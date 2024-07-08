@@ -1,0 +1,13 @@
+.trainers{
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+}
+.trainers .trainers-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 3fr));
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    margin-top: var(--margin);
+  }

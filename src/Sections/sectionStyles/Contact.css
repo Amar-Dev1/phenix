@@ -1,0 +1,35 @@
+.contact {
+    background-image: url(../../assets/contact-bg.jpg);
+    background-size: cover;
+    padding: var(--padding);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.contact form input,
+.contact form textarea {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact form textarea {
+    resize: vertical;
+    height: 150px;
+}
+.contact form input:focus,.contact form textarea:focus{
+    outline: none;
+    border: 1px solid var(--main-color);
+}

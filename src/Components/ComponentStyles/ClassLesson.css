@@ -1,0 +1,25 @@
+.class-lesson{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+.class-lesson img{
+    width: 100%;
+}
+.class-lesson h3{
+    margin: 20px 0;
+}
+.class-lesson p{
+    font-weight: normal;
+    font-size: .7rem;
+    opacity: .7;
+}
+.class-lesson .main-button{
+    width: fit-content;
+    margin-top: 15px;
+}
+@media (max-width:767px) {
+    .class-lesson{
+        flex-basis: 100%;
+    }
+}

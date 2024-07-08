@@ -1,0 +1,12 @@
+.programs {
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+}
+.programs-cards{
+    margin: var(--margin);
+    display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(370px, 4fr));
+        grid-column-gap: 30px;
+        grid-row-gap: 20px;
+        justify-content: center;
+}

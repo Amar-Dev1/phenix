@@ -1,0 +1,29 @@
+.card-class {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding: 20px 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: .5px .5px 5px #ccc;
+    flex-basis: 35%;
+}
+
+.card-class h4 {
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.card-class.active {
+    color: var(--main-color);
+}
+
+@media (max-width:767px) {
+    .card-class {
+        flex-basis: 100%;
+    }
+}

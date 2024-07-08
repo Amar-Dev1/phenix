@@ -1,0 +1,31 @@
+.program-card {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+    padding: 10px;
+}
+
+.program-card img {
+    width: 100px;
+    margin-right: 15px;
+}
+
+.program-card .text h3 {
+    font-size: 1rem;
+}
+
+.program-card .text p {
+    font-size: .7rem;
+    opacity: .6;
+}
+
+.program-card a {
+    display: block;
+}
+
+.program-card a {
+    color: var(--main-color);
+    font-size: .7rem;
+    margin-top: 10px;
+}

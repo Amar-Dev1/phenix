@@ -1,0 +1,61 @@
+.landing {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  top: 35%;
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+.content p {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.content h1 {
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
+
+.content h1 span {
+  color: var(--main-color);
+}
+
+@media (max-width:767px) {
+  .content p {
+    font-size: 1.1rem;
+  }
+
+  .content h1 {
+    font-size: 2.5rem;
+  }
+}

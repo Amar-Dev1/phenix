@@ -1,0 +1,27 @@
+.motivation {
+    background-image: url(../../assets/cta-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-top: var(--margin);
+    margin-bottom: var(--margin);
+    padding: var(--padding);
+    color: white;
+}
+
+.motivation span {
+    color: var(--main-color);
+}
+
+.motivation h3 {
+    font-size: 1.5rem;
+}
+
+.motivation p {
+    font-size: .7rem;
+    margin: 20px 0;
+
+}
+.motivation .main-button{
+    margin-bottom: 15px;
+}

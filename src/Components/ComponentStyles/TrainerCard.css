@@ -1,0 +1,31 @@
+.trainer-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #ddd;
+}
+
+.trainer-card img {
+    width: 100%;
+}
+ .trainer-card small{
+    color: var(--main-color);
+    margin-top: 10px;
+    font-weight: bold;
+ }
+ .trainer-card h3{
+    margin: 15px 0;
+ }
+ .trainer-card p{
+    font-weight: normal;
+    font-size: .7rem;
+    opacity: .7;
+    margin: 15px 0;
+ }
+ .trainer-card .social .social-icon{
+    margin: 10px 5px;
+    font-size: 1.2rem;
+ }

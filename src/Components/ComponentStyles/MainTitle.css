@@ -1,0 +1,25 @@
+.main-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.main-title h1 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.main-title h1 span {
+    color: var(--main-color);
+}
+
+.main-title img {
+    margin: 15px 0;
+}
+
+.main-title p {
+    font-weight: normal;
+    font-size: .7rem;
+    margin: 10px 0;
+    opacity: .7;
+}
